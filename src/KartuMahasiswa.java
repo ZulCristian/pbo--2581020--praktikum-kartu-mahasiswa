@@ -7,6 +7,9 @@ public class KartuMahasiswa {
         System.out.printf("NIK (16 digit) : ");
         String NIK = input.nextLine();
 
+        System.out.printf("Umur : ");
+        String Umur = input.nextLine();
+
 
 
 
