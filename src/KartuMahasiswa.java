@@ -5,10 +5,17 @@ public class KartuMahasiswa {
         Scanner input = new Scanner(System.in);
 
         System.out.printf("NIK (16 digit) : ");
-        String NIK = input.nextLine();
+        Long NIK = input.nextLong();
 
         System.out.printf("Umur : ");
-        String Umur = input.nextLine();
+        Integer Umur = input.nextInt();
+
+        System.out.printf("Tinggi badan cm : ");
+        Double Tinggi = input.nextDouble();
+
+
+
+
 
 
 
